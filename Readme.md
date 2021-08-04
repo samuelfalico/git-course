@@ -12,10 +12,11 @@ Repositório para aprender como funciona o Git e o GitHub.
 - git diff -> Utilizado para comparar o que foi modificado com o estado original (apenas antes do commit).
 - git checkout -> Utilizado para restaurar o arquivo caso não tenha sido realizado o commit, e para trocar de branch.
 - git log -> Visualização de todas alterações feitas no repositório.
+- git push -> Empurrar os arquivos para o repositório.
 - git shortlog -> Visualização do log de uma forma curta, apenas o usuário e os seus commits.
 - git status -> Visualizar os arquivos novos, modificados e qual seu estágio atual (untracked, modified, staged)
 
-### Reset
+### Reset (Cuidado ao utilizar)
 - git reset --soft -> Deleta o commit e volta os arquivos prontos (staged) para commit novamente.
 - git reset --mixed -> Deleta o commit e volta os arquivos modificados (modified) para adicionar (add).
 - git reset --hard -> Deleta o commit por completo, junto com os arquivos criados e, ou, modificados.
